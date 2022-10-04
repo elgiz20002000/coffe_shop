@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+
+body {  
+  margin: 0;
+  font-family:'Merienda';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 250px;
+  position: relative;
+}
+
+.beans_icon {
+  width: 200px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  hr {
+      width: 60px;
+      height: 0px;
+      border: 1px solid #FFFFFF;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  }
+  img {
+      background:transparent;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+}
+
+.beans_icon_black {
+  width: 200px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  hr {
+      width: 60px;
+      height: 0px;
+      border: 1px solid #FFFFFF;
+      border-color: #000;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  }
+  img {
+      background:transparent;
+      filter: none;
+  }
+}

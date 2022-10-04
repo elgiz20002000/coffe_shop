@@ -1,0 +1,210 @@
+.promo {
+    height: 260px;
+    position: relative;
+    h1 {
+        position: absolute;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 58px;
+        color: #FFFFFF;
+        left: 50%;
+        top: 50%;
+        transform: translate( -50% , -50%);
+    }
+}
+
+.promo_2 {
+    background: url('../../img/promo_2.jpg') center center / cover no-repeat;
+}
+
+
+.about_our_beans {
+    padding: 70px 0 60px;
+    color: #000000;
+
+    .wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        img[alt=girl] {
+            width: 272px;
+            height: 355px; 
+            filter: drop-shadow(5px 5px 30px rgba(0, 0, 0, 0.25));
+        }
+        .info {
+            position: relative;
+            text-align: center;
+            .beans_icon_black {
+                margin: 0 auto;
+            }
+            h2 {
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 35px;
+            }
+            .descr {
+                text-align: center;
+                width: 346px;
+                height: 232px;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                span {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+hr {
+    width: 240px;
+    border: 1px solid #000000;
+}
+
+.coffe_beans {
+    padding: 60px 0 30px;
+    a {
+        color: #000000;
+        text-decoration: none;
+    }
+    .label {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+
+        &:nth-child(n) {
+            margin-right: 35px;
+        }
+    }
+    input[type=text] {
+        font-family: 'Merienda';
+        padding: 3px 18px;
+        width: 180px;
+        height: 30px;
+        background: #FFFFFF;
+        box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+        border-color: transparent;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        &::placeholder {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 17px;
+            text-align: center;
+            color: rgba(0, 0, 0, 0.5);
+        }
+    }
+    .wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .filter {
+        display: flex;
+        align-items: center;
+        .filters {
+            display: flex;
+            gap:5px;
+            .filter_item {
+                cursor: pointer;
+                text-align: center;
+                padding: 7px 20px 5px  ;
+                width: 75px;
+                height: 30px;
+                background: #FFFFFF;
+                box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+                border-radius: 4px 0px 0px 4px;
+            }
+        }
+    }
+  
+
+    .beans_list {
+        margin-top: 71px;
+        flex-wrap: wrap;
+        gap: 60px;
+        &_item {
+            padding: 37px 27px 22px ;
+            cursor: pointer;
+            width: 180px;
+            height: 220px;
+            background: #FFFFFF;
+            filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.25));
+            .country {
+                margin-top: 14px;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                text-align: right;
+            }
+            img {
+                width: 167px;
+                height: 115px;
+            }
+        }
+        
+    }
+
+}
+
+.about_it {
+    padding: 70px 0 30px;
+    .wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        img[alt=aromatisco] {
+            width: 392px;
+            height: 355px;
+            filter: drop-shadow(5px 5px 30px rgba(0, 0, 0, 0.25));
+        }
+        .info {
+            position: relative;
+            text-align: center;
+            .beans_icon_black {
+                margin: 0 auto;
+            }
+            h2 {
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 35px;
+            }
+            .descr {
+                margin-top: 16px;
+                text-align: left;
+                width: 418px;;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                span {
+                    display: block;
+                }
+            }
+            .price , .country {
+                margin-top: 16px;
+                text-align: left;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 20px;
+                span {
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 35px;
+                }
+            }
+
+            .country {
+                span {
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+}

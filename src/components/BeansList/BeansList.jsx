@@ -6,7 +6,7 @@ import { context } from '../our_coffe/Our_Coffe'
 
 export const BeansList = ({setSelected , url}) => {
     const {filter , search} = useContext(context)
-    const [items , setItems] = useState([{img , title:'Solimo Coffee Beans 2 kg' , country:'Brazil' , price: 10.73 },
+    const [items] = useState([{img , title:'Solimo Coffee Beans 2 kg' , country:'Brazil' , price: 10.73 },
     {img , title:'Solimo Coffee Beans 2 kg' , country:'Kenya' , price: 10.73 },
     {img , title:'Aromatisco' , country:'Columbia' , price: 10.73 },
     {img , title:'Espresso' , country:'Brazil' , price: 10.73 },

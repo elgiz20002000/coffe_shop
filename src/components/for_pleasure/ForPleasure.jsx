@@ -7,7 +7,7 @@ import { useState } from 'react'
 
 
 export const ForPleasure = () => {
-    const [selected , setSelected] = useState()
+    const [setSelected] = useState()
     return (
     <>
       <section className="promo promo_3">
